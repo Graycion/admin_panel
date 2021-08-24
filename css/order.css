@@ -1,0 +1,24 @@
+a {
+    text-decoration: none;
+}
+.card {
+    border-color: #fff;
+    box-shadow: 0 0 35px 0 rgb(154 161 171 / 15%);
+}
+
+.badge-success-lighten {
+    color: #42d29d;
+    background-color: rgba(66,210,157,.18);
+}
+.badge-info-lighten {
+    color: #44badc;
+    background-color: rgba(68,186,220,.18);
+}
+.badge-warning-lighten {
+    color: #f9bc0d;
+    background-color: rgba(249,188,13,.18);
+}
+.badge-danger-lighten {
+    color: #fa6767;
+    background-color: rgba(250,103,103,.18);
+}

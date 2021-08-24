@@ -15,8 +15,8 @@ body {
     background-size: cover;
     background-position: center;
 }
-.container {
-    margin-top: 200px;
+.account-page {
+    height: 100%;
 }
 .bg-purple,
 .btn-purple {
