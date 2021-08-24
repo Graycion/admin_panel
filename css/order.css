@@ -1,6 +1,3 @@
-a {
-    text-decoration: none;
-}
 .card {
     border-color: #fff;
     box-shadow: 0 0 35px 0 rgb(154 161 171 / 15%);
@@ -21,4 +18,8 @@ a {
 .badge-danger-lighten {
     color: #fa6767;
     background-color: rgba(250,103,103,.18);
+}
+.form-control {
+    background-color: #fff;
+    border: 1px solid #ced4da;
 }

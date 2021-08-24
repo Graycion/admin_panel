@@ -1,42 +1,130 @@
-.body {
+body {
     margin: 0;
     font-family: "Nunito" ,sans-serif;
-    font-size: .9rem;
+    font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
     color: #838c96;
     overflow-x: hidden;
     background-color: #fafbfe;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
 }
-/*header-start*/
-.header {
-    height: 70px;
+.wrapper {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+.content-page {
+    overflow: hidden;
+    min-height: 100vh;
+}
+.icon {
+    opacity: 0.3;
+}
+.icon:hover {
+    opacity: 1;
+}
+i {
+    height: 22px;
+    width: 22px;
+}
+a {
+    color: #838c96 !important;
+    text-decoration: none;
+}
+a, button {
+    outline: 0 !important;
+}
+.topnav-navbar {
+    padding: 0;
+    margin: 0;
+    min-height: 70px;
+    position: relative;
+    z-index: 1;
+}
+.topnav-navbar-dark {
     background-color: #313a46;
 }
-#logo {
-    height: 50px;
-    width: 175px;
+.topnav-logo {
+    padding-right: 20px;
+    width: 160px;
 }
-.account {
-    height: 62px;
+.app-search {
+    width: 300px;
 }
-#acc {
-    height: 30px;
-    width: 30px;
+.search-icon {
+    position: absolute;
+    z-index: 9;
+    font-size: 20px;
+    line-height: 38px;
+    margin-top: -2px;
+    padding-left: 13px;
 }
+.form-control{
+    background-color: #3c4655;
+    border: none;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+.nav-user {
+    text-align: left !important;
+    min-height: 70px;
+}
+.topnav-link-2::after,
+.topnav-link-3::after {
+    content: none;
+}
+.topnav-link-3 {
+    background-color: #3c4655;
+    border: 1px solid #414d5d;
+}
+.noti-icon-badge {
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: -6px;
+    height: 7px;
+    width: 7px;
+    background-color: #fa6767;
+}
+.account-user-avatar {
+    position: absolute;
+}
+.account-user-name {
+    display: block;
+    font-weight: 600;
+}
+.account-position {
+    display: block;
+    font-size: 12px;
+    margin-top: -3px;
+}
+
+
+.footer {
+    border-top: 1px solid rgba(152,166,173,.2);
+    padding: 19px 24px 20px;
+    position: relative;
+    color: #98a6ad;
+}
+.foot {
+    right: 130px;
+    left: 130px;
+}
+.footer-links {
+    margin: 0 10px;
+    color: #98a6ad;
+}
+/*header-start*/
+
 /*header-end*/
 /*nav-start*/
 
 /*nav-end*/
 /*footer-start*/
-.footer{
-    margin-top: 50px;
-    height: 72px;
-}
-    .btn-link {
-        text-decoration: none;
-        background-color: #fff;
-        border-color: #fff;
-        color: #536de6;
-    }
+
 /*footer-end*/
